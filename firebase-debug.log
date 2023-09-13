@@ -1,0 +1,91 @@
+[debug] [2023-09-13T17:11:09.985Z] ----------------------------------------------------------------------
+[debug] [2023-09-13T17:11:09.987Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Lab-02\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-09-13T17:11:09.987Z] CLI Version:   12.5.4
+[debug] [2023-09-13T17:11:09.988Z] Platform:      win32
+[debug] [2023-09-13T17:11:09.988Z] Node Version:  v18.17.1
+[debug] [2023-09-13T17:11:09.989Z] Time:          Wed Sep 13 2023 22:11:09 GMT+0500 (Pakistan Standard Time)
+[debug] [2023-09-13T17:11:09.989Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-09-13T17:11:10.057Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-09-13T17:11:10.058Z] > authorizing via signed-in user (hamzajohn0786@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Lab-02\Documents\hamza\2. stateful component
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-09-13T17:11:22.602Z] Using project from CLI flag: smit-react-delthis
+[debug] [2023-09-13T17:11:22.603Z] > refreshing access token with scopes: []
+[debug] [2023-09-13T17:11:22.606Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-09-13T17:11:22.606Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-09-13T17:11:23.059Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2023-09-13T17:11:23.059Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-09-13T17:11:23.068Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/smit-react-delthis [none]
+[debug] [2023-09-13T17:11:23.614Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/smit-react-delthis 403
+[debug] [2023-09-13T17:11:23.614Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/smit-react-delthis {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2023-09-13T17:11:23.615Z] HTTP Error: 403, The caller does not have permission
+[debug] [2023-09-13T17:11:23.940Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\Lab-02\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\Lab-02\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:285:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project smit-react-delthis. Please make sure the project exists and your account has permission to access it.
+[debug] [2023-09-13T17:11:41.605Z] ----------------------------------------------------------------------
+[debug] [2023-09-13T17:11:41.606Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Lab-02\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-09-13T17:11:41.607Z] CLI Version:   12.5.4
+[debug] [2023-09-13T17:11:41.607Z] Platform:      win32
+[debug] [2023-09-13T17:11:41.607Z] Node Version:  v18.17.1
+[debug] [2023-09-13T17:11:41.608Z] Time:          Wed Sep 13 2023 22:11:41 GMT+0500 (Pakistan Standard Time)
+[debug] [2023-09-13T17:11:41.608Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-09-13T17:11:41.677Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-09-13T17:11:41.677Z] > authorizing via signed-in user (hamzajohn0786@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Lab-02\Documents\hamza\2. stateful component
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-09-13T17:11:47.530Z] Using project from CLI flag: smit-react-delthis
+[debug] [2023-09-13T17:11:47.533Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/smit-react-delthis [none]
+[debug] [2023-09-13T17:11:48.139Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/smit-react-delthis 403
+[debug] [2023-09-13T17:11:48.139Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/smit-react-delthis {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2023-09-13T17:11:48.140Z] HTTP Error: 403, The caller does not have permission
+[debug] [2023-09-13T17:11:48.476Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\Lab-02\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\Lab-02\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:285:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project smit-react-delthis. Please make sure the project exists and your account has permission to access it.

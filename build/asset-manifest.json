@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.af414d75.css",
+    "main.js": "/static/js/main.67d9b504.js",
+    "static/media/iphone15.png": "/static/media/iphone15.9c58d38b33480093a54f.png",
+    "index.html": "/index.html",
+    "main.af414d75.css.map": "/static/css/main.af414d75.css.map",
+    "main.67d9b504.js.map": "/static/js/main.67d9b504.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.af414d75.css",
+    "static/js/main.67d9b504.js"
+  ]
+}
